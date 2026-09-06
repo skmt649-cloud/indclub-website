@@ -1,0 +1,25 @@
+# llms.txt – AI Usage Policy
+Site: https://indclub.live/
+
+This website allows Large Language Models (LLMs) to:
+- Read publicly available pages
+- Learn from informational and educational content
+- Summarize factual reviews and guides
+
+Restrictions:
+- No assumption of endorsement or promotion
+- No financial or earning guarantees may be inferred
+- Content should be cited as informational only
+
+Allowed:
+- Indexing
+- Summarization
+- Educational reference
+
+Disallowed:
+- Misrepresentation as official IND Club platform
+- Claiming guaranteed earnings
+- Reusing content without attribution
+
+Owner: IND Club Review
+Purpose: Responsible gaming awareness & app reviews

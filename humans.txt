@@ -1,0 +1,28 @@
+/* TEAM */
+Author: Gaming Review Team
+Role: Research, Content & Review
+Location: India
+Contact: https://indclub.live/
+
+/* SITE */
+Site Name: IND Club App Review
+Site URL: https://indclub.live/
+Language: English (India) + Hinglish
+Purpose: Educational & Informational Review of Gaming Apps
+
+/* CONTENT */
+Topics:
+- IND Club App Game Review
+- APK Download Safety Guide
+- Bonuses & Withdrawals
+- Responsible Gaming Awareness
+
+Disclaimer:
+This website does not promote or endorse real-money gaming.
+Content is for educational and informational purposes only.
+
+/* TECH */
+Frontend: HTML, CSS, JavaScript
+SEO: On-page SEO, Structured Data (Schema)
+Hosting: India
+Last Updated: 27 December 2025
