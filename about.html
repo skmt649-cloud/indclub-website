@@ -5,59 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About IND Club App - Your Gaming Companion | Our Story & Mission</title>
+    <title>About IND Club App - Official Story, Vision & Platform</title>
+    <meta name="description" content="Discover the story behind IND Club App - bringing high-performance Rummy, Teen Patti, and certified casual gaming to players across India.">
+    <meta name="keywords" content="about ind club, ind club about us, ind club mission, gaming platform india, inds club">
 
-    <meta name="description" content="Learn about IND Club App - our mission to provide exciting gaming experiences, our journey, and commitment to responsible gaming in India.">
-
-    <meta name="keywords" content="about ind club, ind club about us, ind club mission, ind club team, gaming platform india">
-
-    <!-- Author & Publisher -->
     <meta name="author" content="IND Club Team">
     <meta name="publisher" content="IND Club App">
-
-    <!-- Robots -->
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
 
     <link rel="canonical" href="https://indclub.live/about.html">
 
-    <meta name="language" content="English">
-    <meta name="geo.region" content="IN">
-    <meta name="geo.placename" content="India">
-    <meta name="distribution" content="global">
-
-    <!-- Favicon -->
     <link rel="icon" href="/images/logo.jpg" type="image/x-icon">
     <link rel="apple-touch-icon" href="/images/logo.jpg">
 
-    <!-- Preload Critical Assets -->
-    <link rel="preload" as="image" href="/images/about-hero.jpg" fetchpriority="high">
-    <link rel="preload" as="style" href="/style.css">
-
-    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="About IND Club App - Our Gaming Journey">
-    <meta property="og:description" content="Discover the story behind IND Club App - our mission to bring exciting gaming experiences to millions of players across India.">
+    <meta property="og:title" content="About IND Club App - Gaming With Purpose">
+    <meta property="og:description" content="Learn about our mission to create India's most trusted gaming portal with fair play and instant payouts.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://indclub.live/about.html">
-    <meta property="og:image" content="https://indclub.live/images/about-hero.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://indclub.live/images/logo.jpg">
     <meta property="og:site_name" content="IND Club App">
-    <meta property="og:locale" content="en_IN">
 
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="About IND Club - Gaming With Purpose">
-    <meta name="twitter:description" content="Learn about our mission to create India's favorite gaming platform with exciting games and responsible play.">
-    <meta name="twitter:image" content="https://indclub.live/images/about-hero.jpg">
+    <meta name="theme-color" content="#ffffff">
 
-    <!-- Theme Color -->
-    <meta name="theme-color" content="#40513B">
-
-    <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -67,258 +42,232 @@
       "publisher": {
         "@type": "Organization",
         "name": "IND Club",
-        "description": "India's exciting gaming platform"
+        "url": "https://indclub.live"
       }
     }
     </script>
 
     <style>
-        /* Additional About Page Styles */
+        .about-page-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding-bottom: 50px;
+        }
+
+        /* Banner Hero */
         .about-hero {
-            background: linear-gradient(135deg, #40513B 0%, #609966 100%);
-            color: white;
-            padding: 60px 20px;
+            background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+            padding: 55px 30px;
             text-align: center;
-            border-radius: 10px;
-            margin-bottom: 40px;
+            border-radius: var(--radius-lg, 20px);
+            margin: 25px 0 35px;
+            box-shadow: 0 12px 30px -10px rgba(22, 163, 74, 0.35);
         }
         
         .about-hero h1 {
-            font-size: 2.8em;
-            margin-bottom: 20px;
-            color: white;
+            font-size: 2.6rem;
+            margin-bottom: 12px;
+            color: #ffffff !important;
+            font-weight: 800;
+            letter-spacing: -0.02em;
         }
         
-        .about-hero p {
-            font-size: 1.2em;
-            max-width: 800px;
-            margin: 0 auto 30px;
-            opacity: 0.9;
+        .about-hero .hero-subtitle {
+            font-size: 1.25rem;
+            color: #bbf7d0 !important;
+            font-weight: 600;
+            margin-bottom: 14px;
+        }
+        
+        .about-hero .hero-desc {
+            font-size: 1.05rem;
+            color: #f0fdf4 !important;
+            max-width: 760px;
+            margin: 0 auto;
+            line-height: 1.7;
+            font-weight: 400;
+        }
+
+        /* Section Container */
+        .about-card-section {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-md, 16px);
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-sm, 0 2px 4px rgba(0,0,0,0.04));
+        }
+
+        .about-card-section h2 {
+            text-align: left;
+            color: #0f172a;
+            font-size: 1.65rem;
+            margin-bottom: 15px;
+        }
+
+        .about-card-section p {
+            color: #475569;
+            line-height: 1.75;
+            font-size: 1rem;
         }
         
         .mission-vision {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
+            gap: 25px;
+            margin: 25px 0 10px;
         }
         
         .mission-card, .vision-card {
-            background: #f8f9fa;
-            padding: 30px;
-            border-radius: 15px;
-            border-top: 5px solid #40513B;
+            background: #f8fafc;
+            padding: 26px;
+            border-radius: 14px;
+            border: 1px solid #e2e8f0;
+            border-top: 4px solid #16a34a;
         }
         
         .mission-card h3, .vision-card h3 {
-            color: #40513B;
-            margin-bottom: 20px;
-            font-size: 1.8em;
+            color: #0f172a;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
         }
-        
-        .journey-timeline {
-            position: relative;
-            margin: 50px 0;
-            padding-left: 30px;
+
+        .mission-card p, .vision-card p {
+            color: #475569;
+            font-size: 0.95rem;
         }
-        
-        .journey-timeline:before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 3px;
-            background: #40513B;
-        }
-        
-        .timeline-item {
-            position: relative;
-            margin-bottom: 40px;
-            padding-left: 30px;
-        }
-        
-        .timeline-item:before {
-            content: '';
-            position: absolute;
-            left: -38px;
-            top: 5px;
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-            background: #609966;
-            border: 3px solid #40513B;
-        }
-        
-        .timeline-year {
-            display: inline-block;
-            background: #40513B;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        
+
+        /* Values Grid */
         .values-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-            margin: 40px 0;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin: 25px 0 10px;
         }
         
         .value-card {
             text-align: center;
-            padding: 25px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            transition: transform 0.3s;
+            padding: 24px 20px;
+            background: #f8fafc;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            transition: all 0.25s;
         }
         
         .value-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-3px);
+            border-color: #cbd5e1;
+            box-shadow: var(--shadow-md, 0 10px 25px -5px rgba(0,0,0,0.06));
         }
         
         .value-icon {
-            font-size: 3em;
-            margin-bottom: 20px;
+            font-size: 2.4rem;
+            margin-bottom: 12px;
             display: block;
         }
-        
-        .team-section {
-            background: #f8f9fa;
-            padding: 40px;
-            border-radius: 15px;
-            margin: 50px 0;
+
+        .value-card h3 {
+            font-size: 1.15rem;
+            color: #0f172a;
+            margin-bottom: 8px;
+        }
+
+        .value-card p {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 0;
         }
         
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-top: 30px;
-        }
-        
-        .team-member {
-            text-align: center;
-            padding: 20px;
-        }
-        
-        .team-avatar {
-            width: 120px;
-            height: 120px;
-            background: linear-gradient(135deg, #40513B, #609966);
-            border-radius: 50%;
-            margin: 0 auto 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 2.5em;
-            font-weight: bold;
-        }
-        
+        /* Community Stats */
         .community-stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 20px;
-            margin: 40px 0;
+            margin: 25px 0 10px;
         }
         
         .stat-card {
             text-align: center;
-            padding: 30px 20px;
-            background: white;
-            border-radius: 10px;
-            border: 2px solid #e9ecef;
+            padding: 25px 15px;
+            background: #f8fafc;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
         }
         
         .stat-number {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #40513B;
-            margin-bottom: 10px;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #16a34a;
+            margin-bottom: 6px;
         }
         
         .stat-label {
-            color: #666;
-            font-size: 0.9em;
+            color: #475569;
+            font-size: 0.9rem;
+            font-weight: 500;
         }
-        
-        .cta-section {
+
+        /* CTA Section */
+        .about-cta-section {
             text-align: center;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 50px 30px;
-            border-radius: 15px;
-            margin: 40px 0;
+            background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+            padding: 45px 25px;
+            border-radius: var(--radius-lg, 20px);
+            border: 1px solid #e2e8f0;
+            margin: 35px 0;
         }
-        
+
+        .about-cta-section h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .about-cta-section p {
+            color: #64748b;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+
         .back-home {
             text-align: center;
-            margin: 40px 0;
+            margin: 30px 0 10px;
         }
-        
+
         .back-home a {
             display: inline-flex;
             align-items: center;
-            gap: 10px;
-            color: #40513B;
+            gap: 8px;
+            color: #16a34a;
             text-decoration: none;
-            font-weight: bold;
-            padding: 10px 20px;
-            border: 2px solid #40513B;
-            border-radius: 8px;
-            transition: all 0.3s;
+            font-weight: 600;
+            padding: 10px 24px;
+            border: 1px solid #e2e8f0;
+            border-radius: 50px;
+            background: #ffffff;
+            transition: all 0.25s;
         }
-        
+
         .back-home a:hover {
-            background: #40513B;
-            color: white;
+            background: #16a34a;
+            color: #ffffff;
+            border-color: #16a34a;
         }
-        
-        /* Mobile Responsiveness */
+
         @media (max-width: 768px) {
-            .about-hero h1 {
-                font-size: 2em;
-            }
-            
-            .about-hero p {
-                font-size: 1em;
-            }
-            
-            .mission-card, .vision-card {
-                padding: 20px;
-            }
-            
-            .team-section {
-                padding: 20px;
-            }
-            
-            .stat-card {
-                padding: 20px 10px;
-            }
-            
-            .stat-number {
-                font-size: 2em;
-            }
-        }
-        
-        @media (max-width: 480px) {
             .about-hero {
-                padding: 40px 15px;
+                padding: 40px 18px;
             }
-            
-            .journey-timeline {
-                padding-left: 20px;
+
+            .about-hero h1 {
+                font-size: 2rem;
             }
-            
-            .timeline-item {
-                padding-left: 20px;
+
+            .about-card-section {
+                padding: 24px 18px;
             }
-            
-            .timeline-item:before {
-                left: -28px;
+
+            .community-stats {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
     </style>
@@ -328,321 +277,154 @@
     <!-- Header -->
     <header>
         <div class="container header-content">
-            <a href="index.html" class="logo-container">
+            <a href="https://indclub.live/" class="logo-container">
                 <img 
                     src="/images/logo.jpg" 
                     alt="IND Club App Logo" 
                     class="logo-img"
-                    width="48"
-                    height="48"
+                    width="44"
+                    height="44"
                     loading="eager"
                     fetchpriority="high"
                 >
-                <span class="logo-text">IND Club</span>
+                <span class="logo-text">IND<span>Club</span></span>
             </a>
             
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
-                ☰
-            </button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">☰</button>
             
             <nav id="mainNav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html" class="active">About Us</a></li>
-                    <li><a href="index.html#games">Games</a></li>
-                    <li><a href="index.html#faq">FAQs</a></li>
-                    <li><a href="https://indclub30.com/?code=W23WPAMW5M6&t=1770375129">Download</a></li>
+                    <li><a href="https://indclub.live/">Home</a></li>
+                    <li><a href="about.html" style="color: #16a34a; font-weight: 700;">About Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="https://indclub.live/#faq">FAQs</a></li>
+                    <li><a href="https://indclub95.com/?code=W23WPAMW5M6&t=1788690538" target="_blank" rel="noopener noreferrer" class="nav-download-cta">Download App</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="container">
+    <main class="container about-page-wrapper">
         <!-- Hero Section -->
         <section class="about-hero">
             <h1>Welcome to IND Club</h1>
-            <p>Where Gaming Meets Excitement and Community</p>
-            <p>We're on a mission to bring India's favorite games to your fingertips, creating memorable experiences and building a vibrant community of players.</p>
+            <p class="hero-subtitle">Where Skill Gaming Meets Instant Rewards</p>
+            <p class="hero-desc">We are dedicated to bringing India's favorite classic card and casual multiplayer games to your fingertips with fair play, low latency, and lightning-fast UPI payouts.</p>
         </section>
 
         <!-- Our Story -->
-        <section class="content-section">
-            <h2>Our Story</h2>
-            <p>IND Club began with a simple idea: to create a gaming platform that truly understands what Indian players want. In a country where games like Rummy, Ludo, and Teen Patti aren't just games but cherished traditions, we saw an opportunity to bring these experiences into the digital age.</p>
-            
-            <p>What started as a small project among friends who shared a passion for gaming has grown into a platform enjoyed by thousands across India. We believe that gaming should be accessible, exciting, and social – bringing people together for moments of fun and friendly competition.</p>
-            
-            <img 
-                src="/images/about-story.jpg" 
-                alt="Team collaboration and gaming community"
-                class="section-image"
-                loading="lazy"
-                width="800"
-                height="450"
-                decoding="async"
-                style="border-radius: 10px; margin: 30px 0;"
-            >
+        <section class="about-card-section">
+            <h2>Our Story & Platform</h2>
+            <p>IND Club was developed with a single goal: creating a clean, secure, and user-first gaming platform built specifically for Indian card game players. From traditional favorites like 13-Card Rummy and Teen Patti to fast multiplayer prediction games like Dragon vs Tiger, our technology provides an unmatched table experience.</p>
+            <p>Our platform handles thousands of simultaneous matches with zero bot interference, backed by high-availability cloud servers and verified payment settlement gateways.</p>
         </section>
 
         <!-- Mission & Vision -->
-        <section class="content-section">
+        <section class="about-card-section">
             <h2>Our Mission & Vision</h2>
             <div class="mission-vision">
                 <div class="mission-card">
                     <h3>🎯 Our Mission</h3>
-                    <p>To create India's most engaging and responsible gaming platform, offering exciting games that connect people while maintaining the highest standards of safety and fairness.</p>
-                    <p>We're committed to providing a seamless experience where every player feels valued and every game brings joy.</p>
+                    <p>To provide a dependable, completely transparent digital gaming ecosystem where every player enjoys fair rules, authenticated opponents, and instant access to their cash rewards.</p>
                 </div>
                 
                 <div class="vision-card">
                     <h3>✨ Our Vision</h3>
-                    <p>To build a gaming community where millions of Indians can connect, play their favorite games, and create lasting memories together.</p>
-                    <p>We envision a platform that celebrates India's gaming heritage while innovating for the future of digital entertainment.</p>
+                    <p>To remain India's most preferred, lightweight mobile gaming platform by continuously releasing innovative game modes, enhanced security frameworks, and rapid customer support.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Our Journey -->
-        <section class="content-section">
-            <h2>Our Journey So Far</h2>
-            <div class="journey-timeline">
-                <div class="timeline-item">
-                    <span class="timeline-year">2022</span>
-                    <h3>The Beginning</h3>
-                    <p>IND Club was born from a passion project. A small team of gaming enthusiasts came together with a vision to create something special for Indian players.</p>
-                </div>
-                
-                <div class="timeline-item">
-                    <span class="timeline-year">2023</span>
-                    <h3>First Launch</h3>
-                    <p>We launched our first version with three popular games. The response was overwhelming, with thousands of downloads in the first month.</p>
-                </div>
-                
-                <div class="timeline-item">
-                    <span class="timeline-year">2024</span>
-                    <h3>Expanding Horizons</h3>
-                    <p>Added more games, improved our platform, and built a strong community. Reached milestone of 100,000+ active players across India.</p>
-                </div>
-                
-                <div class="timeline-item">
-                    <span class="timeline-year">2025</span>
-                    <h3>Today & Beyond</h3>
-                    <p>Continuing to innovate, adding new features, and focusing on creating the best possible gaming experience for our community.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Our Values -->
-        <section class="content-section">
+        <!-- What We Stand For -->
+        <section class="about-card-section">
             <h2>What We Stand For</h2>
-            <p>Our core values guide everything we do at IND Club:</p>
-            
             <div class="values-grid">
                 <div class="value-card">
                     <span class="value-icon">🎮</span>
-                    <h3>Fun First</h3>
-                    <p>We believe gaming should always be enjoyable. Every feature we add is designed to enhance your fun.</p>
+                    <h3>Zero Bot Play</h3>
+                    <p>100% verified real players across all tables.</p>
                 </div>
                 
                 <div class="value-card">
                     <span class="value-icon">🛡️</span>
-                    <h3>Safety & Fairness</h3>
-                    <p>Your safety is our priority. We maintain transparent practices and ensure fair play for everyone.</p>
+                    <h3>RNG Certified</h3>
+                    <p>Random algorithmic shuffling for fair matches.</p>
+                </div>
+                
+                <div class="value-card">
+                    <span class="value-icon">⚡</span>
+                    <h3>Instant UPI</h3>
+                    <p>Fast payouts directly to PhonePe, Paytm & Bank.</p>
                 </div>
                 
                 <div class="value-card">
                     <span class="value-icon">🤝</span>
-                    <h3>Community Focus</h3>
-                    <p>We're building more than an app - we're building a community where players connect and share experiences.</p>
-                </div>
-                
-                <div class="value-card">
-                    <span class="value-icon">💡</span>
-                    <h3>Innovation</h3>
-                    <p>We constantly evolve, bringing new features and improvements based on what our players want.</p>
+                    <h3>24/7 Care</h3>
+                    <p>Round-the-clock player help and resolution.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Meet the Team -->
-        <section class="team-section">
-            <h2>The People Behind IND Club</h2>
-            <p>We're a diverse team of gaming enthusiasts, tech experts, and customer-focused professionals who share one common goal: creating amazing experiences for our players.</p>
-            
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="team-avatar">AK</div>
-                    <h3>Aarav Kumar</h3>
-                    <p>Founder & Gaming Director</p>
-                    <p>15+ years in game development</p>
-                </div>
-                
-                <div class="team-member">
-                    <div class="team-avatar">PS</div>
-                    <h3>Priya Sharma</h3>
-                    <p>Head of Product</p>
-                    <p>User experience specialist</p>
-                </div>
-                
-                <div class="team-member">
-                    <div class="team-avatar">RJ</div>
-                    <h3>Rajesh Iyer</h3>
-                    <p>Technology Lead</p>
-                    <p>Ensuring smooth gameplay</p>
-                </div>
-                
-                <div class="team-member">
-                    <div class="team-avatar">MG</div>
-                    <h3>Meera Gupta</h3>
-                    <p>Community Manager</p>
-                    <p>Connecting with our players</p>
-                </div>
-            </div>
-            
-            <p style="text-align: center; margin-top: 30px; font-style: italic;">And many more talented individuals who work behind the scenes to make IND Club special!</p>
-        </section>
-
-        <!-- Our Community -->
-        <section class="content-section">
-            <h2>Our Growing Community</h2>
-            <p>What makes IND Club special is our amazing community of players. Here's what we've built together:</p>
-            
+        <!-- Stats -->
+        <section class="about-card-section">
+            <h2>Our Community in Numbers</h2>
             <div class="community-stats">
                 <div class="stat-card">
-                    <div class="stat-number">500K+</div>
-                    <div class="stat-label">Downloads</div>
+                    <div class="stat-number">5,00,000+</div>
+                    <div class="stat-label">Total Downloads</div>
                 </div>
                 
                 <div class="stat-card">
-                    <div class="stat-number">100K+</div>
-                    <div class="stat-label">Active Players</div>
+                    <div class="stat-number">35,000+</div>
+                    <div class="stat-label">Daily Active Players</div>
                 </div>
                 
                 <div class="stat-card">
-                    <div class="stat-number">15+</div>
-                    <div class="stat-label">Games Available</div>
+                    <div class="stat-number">₹100</div>
+                    <div class="stat-label">Min Instant Withdrawal</div>
                 </div>
                 
                 <div class="stat-card">
                     <div class="stat-number">24/7</div>
-                    <div class="stat-label">Support Available</div>
+                    <div class="stat-label">Live Support System</div>
                 </div>
             </div>
-            
-            <div class="testimonials" style="margin-top: 40px;">
-                <div class="testimonial">
-                    <p>"IND Club feels like home. The games are smooth, and I've made so many friends here!"</p>
-                    <cite>- Ankit, Delhi</cite>
-                </div>
-                
-                <div class="testimonial">
-                    <p>"What I love most is how fair the gameplay is. You can really tell the team cares about their players."</p>
-                    <cite>- Sneha, Mumbai</cite>
-                </div>
-            </div>
-        </section>
-
-        <!-- Responsible Gaming -->
-        <section class="content-section">
-            <h2>Our Commitment to Responsible Gaming</h2>
-            <p>At IND Club, we take responsible gaming seriously. We believe gaming should be a fun and positive experience for everyone.</p>
-            
-            <div class="responsible-gaming" style="background: #E3F2FD; padding: 25px; border-radius: 10px; margin: 20px 0;">
-                <h3>🎮 Play Smart Initiatives:</h3>
-                <ul>
-                    <li><strong>Time Reminders:</strong> Gentle reminders to take breaks during extended play</li>
-                    <li><strong>Deposit Limits:</strong> Options to set daily or weekly deposit limits</li>
-                    <li><strong>Self-Exclusion:</strong> Tools for players who need to take a break</li>
-                    <li><strong>Age Verification:</strong> Strict 18+ policy enforcement</li>
-                    <li><strong>Educational Resources:</strong> Information on responsible gaming practices</li>
-                </ul>
-                
-                <p style="margin-top: 20px;"><strong>Remember:</strong> Gaming is entertainment, not a way to make money. Play responsibly and within your means.</p>
-            </div>
-        </section>
-
-        <!-- Future Vision -->
-        <section class="content-section">
-            <h2>Looking Ahead</h2>
-            <p>We're excited about the future and have big plans for IND Club:</p>
-            
-            <div class="features-grid" style="margin: 30px 0;">
-                <div class="feature-card">
-                    <h3>🎮 New Games</h3>
-                    <p>Adding more exciting games based on community requests</p>
-                </div>
-                
-                <div class="feature-card">
-                    <h3>📱 Better Experience</h3>
-                    <p>Continuous improvements to make gameplay smoother</p>
-                </div>
-                
-                <div class="feature-card">
-                    <h3>👥 Community Features</h3>
-                    <p>More ways for players to connect and play together</p>
-                </div>
-                
-                <div class="feature-card">
-                    <h3>🌐 Wider Reach</h3>
-                    <p>Bringing IND Club to more players across India</p>
-                </div>
-            </div>
-            
-            <p>We're constantly listening to our players and evolving based on your feedback. Thank you for being part of our journey!</p>
         </section>
 
         <!-- Join Us CTA -->
-        <section class="cta-section">
-            <h2>Ready to Join the Fun?</h2>
-            <p>Download IND Club App today and become part of our growing community of players!</p>
-            
-            <div style="margin: 30px 0;">
-                <a href="https://indclub30.com/?code=W23WPAMW5M6&t=1770375129" class="cta-button" style="display: inline-block; background: #40513B; color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; margin: 10px;">
-                    Download Now & Start Playing
-                </a>
-            </div>
-            
-            <p>Have questions or feedback? We'd love to hear from you!</p>
+        <section class="about-cta-section">
+            <h2>Experience IND Club Today</h2>
+            <p>Download the official APK file directly, claim your ₹500 welcome bonus, and jump into your favorite game mode right now!</p>
+            <a href="https://indclub95.com/?code=W23WPAMW5M6&t=1788690538" target="_blank" rel="noopener noreferrer" class="cta-button">
+                👉 Download Official IND Club APK
+            </a>
         </section>
 
-        <!-- Back to Home -->
         <div class="back-home">
-            <a href="index.html">
-                <span>←</span>
-                Back to Home Page
-            </a>
+            <a href="https://indclub.live/">← Back to Home</a>
         </div>
     </main>
 
     <!-- Footer -->
     <footer>
         <div class="container footer-content">
-            <div class="footer-logo">
-                <img 
-                    src="/images/logo.jpg" 
-                    alt="IND Club Logo"
-                    width="40"
-                    height="40"
-                    style="border-radius: 8px; margin-bottom: 10px;"
-                >
-                <h3 style="margin: 0; color: #40513B;">IND Club</h3>
-                <p style="margin: 5px 0 20px 0; color: #666;">Your Gaming Companion</p>
+            <div class="footer-brand">
+                <span class="logo-text">IND<span>Club</span></span>
+                <p>Official download portal for IND Club App (Inds Club APK). Fast, reliable, and secure gaming platform.</p>
             </div>
-            
+
             <div class="footer-links">
-                <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 20px 0;">
-                    <a href="index.html" style="color: #40513B; text-decoration: none;">Home</a>
-                    <a href="about.html" style="color: #40513B; text-decoration: none; font-weight: bold;">About Us</a>
-                    <a href="index.html#games" style="color: #40513B; text-decoration: none;">Games</a>
-                    <a href="index.html#faq" style="color: #40513B; text-decoration: none;">FAQs</a>
-                    <a href="https://indclub30.com/?code=W23WPAMW5M6&t=1770375129" style="color: #40513B; text-decoration: none;">Download</a>
-                </div>
+                <a href="https://indclub.live/">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="https://indclub.live/#faq">FAQs</a>
+                <a href="https://indclub95.com/?code=W23WPAMW5M6&t=1788690538" target="_blank" rel="noopener noreferrer">Direct Download</a>
             </div>
             
             <div class="disclaimer">
-                <p><strong>Play Responsibly:</strong> IND Club is for entertainment purposes only. You must be 18+ to play. Set limits and play within your means.</p>
-                <p>© 2025 IND Club App. All rights reserved.</p>
+                <p>© 2026 IND Club App. All rights reserved.</p>
+                <p>Strictly 18+ only. Play responsibly and within your limits.</p>
             </div>
         </div>
     </footer>
@@ -656,105 +438,13 @@
             if (mobileMenuBtn && mainNav) {
                 mobileMenuBtn.addEventListener('click', () => {
                     mainNav.classList.toggle('active');
-                    mobileMenuBtn.setAttribute('aria-expanded', mainNav.classList.contains('active'));
                 });
                 
                 document.addEventListener('click', (e) => {
                     if (!mainNav.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
                         mainNav.classList.remove('active');
-                        mobileMenuBtn.setAttribute('aria-expanded', 'false');
                     }
                 });
-                
-                const navLinks = mainNav.querySelectorAll('a');
-                navLinks.forEach(link => {
-                    link.addEventListener('click', () => {
-                        mainNav.classList.remove('active');
-                        mobileMenuBtn.setAttribute('aria-expanded', 'false');
-                    });
-                });
-            }
-            
-            // Add active class to current page in navigation
-            const currentPage = window.location.pathname.split('/').pop();
-            const navLinks = document.querySelectorAll('#mainNav a');
-            navLinks.forEach(link => {
-                const linkPage = link.getAttribute('href');
-                if (linkPage === currentPage || (currentPage === '' && linkPage === 'index.html')) {
-                    link.classList.add('active');
-                }
-            });
-            
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    
-                    const targetId = this.getAttribute('href');
-                    if (targetId === '#') return;
-                    
-                    const targetElement = document.querySelector(targetId);
-                    if (targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-            
-            // Lazy loading for images
-            if ('loading' in HTMLImageElement.prototype) {
-                const images = document.querySelectorAll('img[loading="lazy"]');
-                images.forEach(img => {
-                    img.addEventListener('load', function() {
-                        this.style.opacity = '1';
-                    });
-                    img.style.transition = 'opacity 0.3s';
-                    img.style.opacity = '0';
-                });
-            }
-            
-            // Animate stats counter
-            function animateCounter(element, start, end, duration) {
-                let startTimestamp = null;
-                const step = (timestamp) => {
-                    if (!startTimestamp) startTimestamp = timestamp;
-                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-                    const value = Math.floor(progress * (end - start) + start);
-                    element.textContent = value.toLocaleString() + '+';
-                    if (progress < 1) {
-                        window.requestAnimationFrame(step);
-                    }
-                };
-                window.requestAnimationFrame(step);
-            }
-            
-            // Trigger counter animation when in view
-            const observerOptions = {
-                threshold: 0.5
-            };
-            
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const statCards = document.querySelectorAll('.stat-number');
-                        statCards.forEach(card => {
-                            const text = card.textContent;
-                            const number = parseInt(text.replace(/[^0-9]/g, ''));
-                            if (!isNaN(number)) {
-                                card.textContent = '0';
-                                animateCounter(card, 0, number, 2000);
-                            }
-                        });
-                        observer.disconnect();
-                    }
-                });
-            }, observerOptions);
-            
-            const statsSection = document.querySelector('.community-stats');
-            if (statsSection) {
-                observer.observe(statsSection);
             }
         });
     </script>
